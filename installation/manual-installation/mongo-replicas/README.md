@@ -20,7 +20,7 @@ Using YAML syntax add this section into `mongod.conf`:
 echo -e "replication:\n  replSetName: \"rs01\"" | sudo tee -a /etc/mongod.conf
 ```
 
-## Restart MongoDB and inititate the replica set
+## Restart MongoDB and initiate the replica set
 
 Restart MongoDB service:
 
